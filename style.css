@@ -1,0 +1,68 @@
+html {
+  background: purple;
+}
+
+body {
+  background: #6260d2;
+  margin: auto;
+  text-align: center;
+  width: 500px;
+  padding: 30px 75px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+hr {
+  width: 500px;
+  margin: auto;
+}
+
+select {
+  text-align: center;
+  padding: 5px;
+}
+
+button {
+  background-color: purple;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: white;
+  color: purple;
+  cursor: pointer;
+}
+
+img {
+  transform: rotate(0);
+  margin: 10px;
+}
+
+#imgPara {
+  background-color: black;
+  border: solid purple 2px;
+  width: 450px;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#DiceRolls {
+  border: solid purple 1px;
+  padding: 35px 8px 35px 8px;
+  width: 450px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+span {
+  /* dice result */
+  border: 1px solid black;
+  padding: 3px;
+  margin: 3px;
+  display: inline-block;
+}
